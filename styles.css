@@ -1,0 +1,102 @@
+body {
+    background-color: lightblue;
+}
+
+/* navbar styling begins
+https://www.w3schools.com/css/css_navbar_horizontal.asp-->*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(253, 253, 142, 0.919); 
+}
+
+li {
+    float: left ;
+  }
+   li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: large;
+    padding: 14px 16px;
+    background-color: rgba(253, 253, 142, 0.919);  
+  }
+   li a:hover {
+    background-color: rgba(184, 253, 142, 0.919);
+  }
+   .active {
+    background-color:rgba(184, 253, 142, 0.919);
+  }
+/* navbar styling ends */
+
+/* welcome id styling begins */
+#welcome {
+      background-color: pink;
+      display: block;
+      align-items:center;
+      width: 300px;
+      border: 10px solid rgb(249, 73, 103);
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+/* welcome id styling ends */
+
+/* profile class styling begins */
+.profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* profile class styling ends */
+
+
+/* header class styling begins */
+.header {
+    background-color: pink;
+    display: block;
+    width: 300px;
+    border: 10px solid rgb(249, 73, 103);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  } 
+/* header class styling ends */
+
+
+/* info class styling begins */
+    .info {
+      border: 1px pink;
+      background-color: pink;
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+      text-align: center;
+ 
+  }
+/* info class styling ends */
+
+
+/* table styling begins 
+https://www.w3schools.com/css/css_table.asp */
+table{
+  width:100%;
+}
+
+table, th, td {
+      border:1px solid black;
+      background-color:pink ;
+      text-align: center;
+
+}
+/* table styling ends */
+
+ 
+
