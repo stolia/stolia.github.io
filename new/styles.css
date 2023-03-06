@@ -1,0 +1,179 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar styling begins
+https://www.w3schools.com/css/css_navbar_horizontal.asp-->*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #FF0000;
+}
+/* navbar styling ends */
+
+/* navbar dropdown styling begins*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(183, 187, 188);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*navbar dropdown styling ends ends*/
+
+/* welcome id styling begins */
+#welcome {
+      background-color: rgb(183, 187, 188);
+      display: block;
+      align-items:center;
+      width: 300px;
+      border: 5px solid rgb(249, 73, 103);
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+/* welcome id styling ends */
+
+/* header class styling begins */
+.header {
+    background-color: rgb(183, 187, 188);
+    display: block;
+    width: 300px;
+    border: 5px solid rgb(249, 73, 103);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  } 
+/* header class styling ends */
+
+
+/* info class styling begins */
+    .info {
+      border: 1px rgb(183, 187, 188);
+      background-color: rgb(183, 187, 188);
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+      text-align: center;
+      letter-spacing: 2px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+/* info class styling ends */
+
+
+/* table styling begins 
+https://www.w3schools.com/css/css_table.asp */
+.table{
+  width:100%;
+
+}
+
+table, th, td {
+      border:4px solid black;
+      background-color: rgb(183, 187, 188);
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+
+}
+/* table styling ends */
+
+/* image styling begins */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/profileimage.jpg");
+  height: 155%;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+/*image styling ends*/
